@@ -1,0 +1,26 @@
+<updates>
+	<file>
+		<versionCode>1</versionCode>
+		<versionName>V1.0</versionName>
+		<packageName>com.tuacy.upgrade</packageName>
+		<fileName>upgrade.apk</fileName>
+		<fileLength>12345</fileLength>
+		<fileUrl>http://www.g-appmarket.com:8080/SmartRouter/SmartRouter.apk</fileUrl>
+		<descriptions>
+			<description language="en">English</description>
+			<description language="zh">����</description>
+		</descriptions>
+	</file>
+	<file>
+		<versionCode>2</versionCode>
+		<versionName>V1.0</versionName>
+		<packageName>com.tuacy.upgrade</packageName>
+		<fileName>upgrade.apk</fileName>
+		<fileLength>12345</fileLength>
+		<fileUrl>http://www.g-appmarket.com:8080/SmartRouter/SmartRouter.apk</fileUrl>
+		<descriptions>
+			<description language="en">English</description>
+			<description language="zh">����</description>
+		</descriptions>
+	</file>
+</updates>
