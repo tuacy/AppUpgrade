@@ -1,5 +1,6 @@
-package com.tuacy.upgradelibrary;
+package com.tuacy.upgradelibrary.bean;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -68,5 +69,16 @@ public class UpgradeBean {
 
 	public void setPackageName(String packageName) {
 		this.mPackageName = packageName;
+	}
+
+	public void addDescription(String key, String value) {
+		List<String> keyList = mDescriptions.get(key);
+		if (null == keyList) {
+			keyList = new ArrayList<String>();
+			mDescriptions.put(key, keyList);
+		}
+		if (!keyList.contains(value)) {
+			keyList.add(value);
+		}
 	}
 }
